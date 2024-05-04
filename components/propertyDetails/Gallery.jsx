@@ -83,6 +83,7 @@ function GalleryControl({ images }) {
         <ul className="flex gap-1 font-extrabold text-neutral-600">
           {images.map((image, i) => (
             <li
+              key={i}
               className={`cursor-pointer ${
                 activeSlide === i ? "text-neutral-100" : ""
               }`}
