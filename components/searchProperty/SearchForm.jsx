@@ -19,11 +19,13 @@ export default function SearchForm() {
     // Instantiate URLSearchParams to manipulate search parameters;
     const params = new URLSearchParams(searchParams);
 
+    params.set("page", "1");
     // Check If there a search query or not
     if (term) {
       params.set("query", term);
     } else {
       params.delete("query");
+      params.delete("page");
     }
     // Change the url without leaving the page
     replace(`${pathname}?${params.toString()}`);
@@ -32,7 +34,7 @@ export default function SearchForm() {
   }
   //Auto Complete logic
   const { isLoading, autoCompleteResults } = useAutoComplete(query);
-
+  console.log(autoCompleteResults);
   return (
     <form
       onSubmit={(e) => handleSubmit(e)}

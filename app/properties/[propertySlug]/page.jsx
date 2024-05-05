@@ -1,4 +1,3 @@
-// "use client";
 import supabase from "@/api/supabase";
 import ExploreSection from "@/components/ExploreSection";
 import InqueiryForm from "@/components/propertyDetails/InquiryForm";

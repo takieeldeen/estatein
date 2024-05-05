@@ -3,7 +3,9 @@ import { searchListings } from "@/api/listings";
 
 async function SearchContainer({ searchParams }) {
   const query = searchParams?.query || "";
-  const { data: listings, error } = await searchListings(query);
+  const page = +searchParams?.page || 1;
+
+  const { data: listings, error } = await searchListings(query, page);
   return (
     <ul className="flex flex-col gap-4 mb-24 relative ">
       {/* Search Item */}

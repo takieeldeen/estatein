@@ -1,3 +1,4 @@
+import Pagination from "@/components/searchProperty/Pagination";
 import RequestForm from "@/components/searchProperty/RequestForm";
 import SearchContainer, {
   SearchContainerSkeleton,
@@ -7,8 +8,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { Suspense } from "react";
 import { IoSparklesSharp } from "react-icons/io5";
+import { getPagesCount } from "../../api/listings";
 
-export default function PropertiesPage({ searchParams }) {
+export default async function PropertiesPage({ searchParams }) {
+  const pageCount = await getPagesCount(searchParams?.query);
   return (
     <>
       <header className="py-12 px-2 md:px-12 bg-gradient-to-l from-neutral-900 to-neutral-800">
@@ -48,6 +51,7 @@ export default function PropertiesPage({ searchParams }) {
         <Suspense fallback={<SearchContainerSkeleton />}>
           <SearchContainer searchParams={searchParams} />
         </Suspense>
+        <Pagination pageCount={pageCount} />
       </section>
       {/* Create request section */}
       <section className="px-4 py-6 relative">
