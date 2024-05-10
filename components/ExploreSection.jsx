@@ -26,7 +26,7 @@ function ExploreSection() {
           </p>
         </div>
         <Link
-          href="/"
+          href="/properties"
           className="bg-purple-700 rounded-md text-center py-4 text-sm transition-all duration-300 hover:bg-purple-900 px-6 md:px-8"
         >
           Explore Properties

@@ -29,7 +29,7 @@ export default function FeaturedListings() {
         </div>
         <Link
           className="border-2 border-neutral-800 py-4 text-center text-sm rounded-md font-thin transition-all duration-300 hover:border-neutral-600 md:px-8 hidden md:block"
-          href="/"
+          href="/properties"
         >
           View All Properties
         </Link>

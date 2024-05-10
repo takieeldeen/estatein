@@ -1,6 +1,5 @@
 "use client";
 
-import { getCounts } from "@/api/listings";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
 function Pagination({ pageCount }) {
