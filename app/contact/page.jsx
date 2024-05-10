@@ -42,11 +42,12 @@ function ContactPage() {
             Get in Touch with Estatein
           </h2>
           <p className="text-neutral-300">
-            Welcome to Estatein's Contact Us page. We're here to assist you with
-            any inquiries, requests, or feedback you may have. Whether you're
-            looking to buy or sell a property, explore investment opportunities,
-            or simply want to connect, we're just a message away. Reach out to
-            us, and let's start a conversation.
+            Welcome to Estatein&apos;s Contact Us page. We&apos;re here to
+            assist you with any inquiries, requests, or feedback you may have.
+            Whether you&apos;re looking to buy or sell a property, explore
+            investment opportunities, or simply want to connect, we&apos;re just
+            a message away. Reach out to us, and let&apos;s start a
+            conversation.
           </p>
         </div>
         <ul className="border-y-4 border-neutral-800 py-2 grid grid-cols-2 p-2 gap-2 md:grid-cols-4">
@@ -92,6 +93,7 @@ function ContactPage() {
           src="/assets/images/contact/exploreBg.png"
           fill
           className="object-cover -z-10 bg-neutral-900"
+          alt="Background Image"
         />
         <ul className="grid grid-cols-4 mb-8 gap-2 md:gap-4">
           <li className="relative w-full h-28 md:h-40 col-span-2 rounded-md overflow-hidden">
@@ -99,6 +101,7 @@ function ContactPage() {
               src="/assets/images/contact/explore-1.png"
               fill
               className="object-cover"
+              alt="An Image showing estatein employees"
             />
           </li>
           <li className="relative w-full h-28 md:h-40 col-span-2 rounded-md overflow-hidden">
@@ -106,6 +109,7 @@ function ContactPage() {
               src="/assets/images/contact/explore-2.png"
               fill
               className="object-cover"
+              alt="An Image showing estatein employees"
             />
           </li>
           <li className="relative w-full h-28 md:h-40 col-span-2 rounded-md overflow-hidden">
@@ -113,6 +117,7 @@ function ContactPage() {
               src="/assets/images/contact/explore-3.png"
               fill
               className="object-cover"
+              alt="An Image showing estatein employees"
             />
           </li>
           <li className="relative w-full h-28 md:h-40 col-span-1 rounded-md overflow-hidden">
@@ -120,6 +125,7 @@ function ContactPage() {
               src="/assets/images/contact/explore-4.png"
               fill
               className="object-cover"
+              alt="An Image showing estatein employees"
             />
           </li>
           <li className="relative w-full h-28 md:h-40 col-span-1 rounded-md overflow-hidden">
@@ -127,6 +133,7 @@ function ContactPage() {
               src="/assets/images/contact/explore-5.png"
               fill
               className="object-cover"
+              alt="An Image showing estatein employees"
             />
           </li>
         </ul>
@@ -142,6 +149,7 @@ function ContactPage() {
               src="/assets/images/contact/explore-6.png"
               fill
               className="object-cover"
+              alt="An Image showing estatein employees"
             />
           </div>
         </div>

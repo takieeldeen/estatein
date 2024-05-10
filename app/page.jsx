@@ -59,19 +59,39 @@ export default function Home() {
         {/* Features */}
         <div className="grid grid-cols-4 gap-4 md:col-span-2 md:px-4">
           <div className="col-span-2 md:col-span-1 flex flex-col gap-2 justify-center items-center p-4 bg-neutral-900 text-sm font-semibold tracking-wide rounded-lg border-neutral-800 border-2 text-center">
-            <img src="./assets/svg/feature-1.svg" />
+            <Image
+              src="./assets/svg/feature-1.svg"
+              height={48}
+              width={48}
+              alt="Icon Showing Home"
+            />
             <p>Find your dream home</p>
           </div>
           <div className="col-span-2 md:col-span-1 flex flex-col gap-2 justify-center items-center p-4 bg-neutral-900 text-sm font-semibold tracking-wide rounded-lg border-neutral-800 border-2 text-center">
-            <img src="./assets/svg/feature-2.svg" />
+            <Image
+              src="./assets/svg/feature-2.svg"
+              height={48}
+              width={48}
+              alt="Icon Showing Money"
+            />
             <p>Unlock property value</p>
           </div>
           <div className="col-span-2  md:col-span-1 flex flex-col gap-2 justify-center items-center p-4 bg-neutral-900 text-sm font-semibold tracking-wide rounded-lg border-neutral-800 border-2 text-center">
-            <img src="./assets/svg/feature-3.svg" />
+            <Image
+              src="./assets/svg/feature-3.svg"
+              height={48}
+              width={48}
+              alt="Icon Showing Buildings"
+            />
             <p>Effortless property management</p>
           </div>
           <div className="col-span-2 md:col-span-1 flex flex-col gap-2 justify-center items-center p-4 bg-neutral-900 text-sm font-semibold tracking-wide rounded-lg border-neutral-800 border-2 text-center">
-            <img src="./assets/svg/feature-4.svg" />
+            <Image
+              src="./assets/svg/feature-4.svg"
+              height={48}
+              width={48}
+              alt="Icon Showing Sun"
+            />
             <p>Smart investments, informed Decisions</p>
           </div>
         </div>

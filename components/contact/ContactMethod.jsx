@@ -12,6 +12,7 @@ function ContactMethod({ method }) {
         src={`/assets/svg/contact/${method.icon}.svg`}
         height={48}
         width={48}
+        alt={`Image showing ${method.text} icon`}
       />
       <span className="text-sm font-semibold">{method.text}</span>
     </li>

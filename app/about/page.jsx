@@ -106,11 +106,13 @@ export default function AboutPage() {
               src="/assets/images/about/heroBg.png"
               className="object-cover"
               fill
+              alt="Cover Image"
             />
             <Image
               src="/assets/images/about/hero.png"
               className="object-cover"
               fill
+              alt="Image Showing house"
             />
           </div>
         </div>
@@ -215,6 +217,7 @@ export default function AboutPage() {
                 <Image
                   src={`/assets/images/about/${member.img}.png`}
                   className="object-cover"
+                  alt={`${member.name} Photo`}
                   fill
                 />
               </div>

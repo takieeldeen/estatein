@@ -29,7 +29,7 @@ function ClientItem() {
       <div className="p-5 py-6 border-[1px] border-neutral-800 rounded-md flex flex-col gap-2">
         <p className="text-neutral-400">What They Said</p>
         <p className="text-neutral-200">
-          Estatein's expertise in finding the perfect office space for our
+          Estatein&apos;s expertise in finding the perfect office space for our
           expanding operations was invaluable. They truly understand our
           business needs.
         </p>
